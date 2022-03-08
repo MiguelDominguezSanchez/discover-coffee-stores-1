@@ -12,7 +12,6 @@ export default function Home() {
 		console.log('hi banner button')
 	}
 
-	console.log('styles', styles)
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -39,8 +38,8 @@ export default function Home() {
 						return (
 							<Card
 								name={coffeeStore.name}
-								imgUrl='/static/hero-image.png'
-								href='/coffee-store/darkhorse-coffee'
+								imgUrl={coffeeStore.imgUrl}
+								href={`/coffee-store/${coffeeStore.id}`}
 								className={styles.card}
 							/>
 						)

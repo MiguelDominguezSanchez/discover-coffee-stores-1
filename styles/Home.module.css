@@ -1,9 +1,7 @@
 /** Mobile first development **/
 
 .container {
-  margin-bottom: 1rem;
-  position: relative;
-  z-index: 2;
+  margin-bottom: 14rem /* 224px */;
 }
 
 .main {
